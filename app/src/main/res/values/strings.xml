@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Home With Us</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="err_msg_email">"Please Enter Email"</string>
+    <string name="err_msg_password">PLease Enter Password"</string>
+    <string name="err_msg_confirm_password">"Please Confirm Password"</string>
+
+    <string name="please_wait">Please Wait</string>
+
+    <string name="err_msg_email_sent">Email Sent</string>
+    <string name="register_success">Registration Successful</string>
+
+    <string name="read_storage_permission_denied">Permission Denied</string>
+    <string name="image_selection_failed">Image selection failed</string>
+
+    <string name="err_msg_mobile_number">PLease Enter Phone Number</string>
+    <string name="msg_update_success">Update Successful</string>
+
+</resources>
