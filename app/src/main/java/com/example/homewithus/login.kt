@@ -159,20 +159,20 @@ class login : BaseActivity() {
 
     private fun loginregisterduser(){
 
-        if (validateRegisterDetails2())
+        if (validateRegisterDetails2()) {
 
-            val email = eMail.text.toString().trim{ it <= ' '}
-            val password = passwword.text.toString().trim{ it <= ' '}
+            val email = eMail.text.toString().trim { it <= ' ' }
+            val password = passwword.text.toString().trim { it <= ' ' }
 
-            FirebaseAuth.getInstance().signInWithEmailAndPassword(email,password)
-                .addOnCompleteListener {task ->
-                    if (task.isSuccessful){
+            FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener { task ->
+                    if (task.isSuccessful) {
                         firestoreclass().getuserdetails(this@login)
-                    }else{
+                    } else {
                         showerrorsnackbar(task.exception!!.message.toString(), true)
                     }
                 }
-
+        }
         }
     }
 
