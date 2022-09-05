@@ -179,7 +179,4 @@ class firestoreclass {
         }
     }
 
-
-
-
 }
